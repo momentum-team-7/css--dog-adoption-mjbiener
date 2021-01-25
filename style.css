@@ -1,0 +1,134 @@
+
+
+body {
+    font-family: "Open Sans", Oswald;   
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: #f5f7fa;
+    
+}
+.header {
+    margin-top: 0 px;
+    padding-top: 0.1rem;
+    padding-bottom: 0rem;
+    border-bottom: .15rem solid;
+    border-bottom-color: #89DEEF;
+    background-color: #004175;
+    color: white;
+    margin: 0 auto;
+    font: 1.2em;
+    
+
+}
+header {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0rem;
+    padding-bottom: .3rem;
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    text-indent: 3%;
+}
+
+h2, h3,{
+   /* text-indent: 3%; */
+}
+
+.dogs {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;  
+    }
+
+.dog{
+    width: 30%;
+    margin: 1%;
+    p{
+        margin: 0px;
+        padding-inline-start: 0px;
+    }
+}    
+
+img { 
+    width: 100%;
+
+}
+
+ul {
+    padding-inline-start: 0px;    
+}
+
+li {
+    list-style: none;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    display: inline;
+    background-color: #89DEEF;
+    /*margin-top: 10%;*/
+    border-radius: 25%;
+    padding-inline-start: 0px;
+    /*line-height: 1.5rem;*/
+    margin: 1%;
+    
+    /*text-align: left;*/
+    
+}
+
+p {
+    
+    margin-bottom: 0px;
+}
+.footer{
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+
+}
+.footerpics {
+width: 33.3%;
+/*max-width: 100%;*/
+margin: 0%;
+height: auto;
+color: white;
+text-align: center; 
+}
+
+#donate{
+    background: 
+        linear-gradient( 
+         rgba(163, 159, 205, 0.8), rgba(163, 159, 205, 0.8)
+         ),url("starter_files/images/donate.jpg");
+    background-repeat: no-repeat;
+    max-width: 33.3%;
+    background-size: contain;    
+}
+
+#volunteer{
+    background: 
+        linear-gradient( 
+        rgba(163, 159, 205, 0.8), rgba(163, 159, 205, 0.8)
+        ),url("starter_files/images/volunteer.jpg");
+    background-repeat: no-repeat;
+    max-width: 33.3%;
+    background-size: contain;
+}
+
+#location{
+    background: 
+        linear-gradient( 
+        rgba(163, 159, 205, 0.8), rgba(163, 159, 205, 0.8)
+        ),url("starter_files/images/location.png");
+    background-repeat: no-repeat;
+    max-width: 33.3%;
+    background-size: contain;
+}
